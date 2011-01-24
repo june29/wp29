@@ -168,6 +168,7 @@ ul.post-date {
   padding: 5px 10px;
   border-bottom: 1px solid #333;
   border-right: 1px solid #999;
+  background-color: #ececec;
   background: -webkit-gradient(linear, left top, left bottom, from(#b7b7b7), to(#ececec));
   background: -moz-linear-gradient(top, #b7b7b7, #ececec);
   -webkit-border-top-left-radius: 5px;
