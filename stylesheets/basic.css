@@ -238,7 +238,7 @@ h2 a:hover {
   font-size: 90%;
 }
 
-.entry-content a {
+.entry-content a, .comment a {
   color: #2c4762;
   border-bottom: 1px solid #ccc;
   text-decoration: none;
@@ -286,6 +286,22 @@ h3, h4 {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+}
+
+.comment .comment-list {
+  list-style-type: none;
+}
+
+.comment .comment-list li {
+  padding: 10px 0;
+}
+
+.comment-metadata * {
+  vertical-align: middle;
+}
+
+.comment-metadata cite {
+  font-style: normal;
 }
 
 #comment-form input {
