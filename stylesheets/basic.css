@@ -296,6 +296,10 @@ h3, h4 {
   padding: 10px 0;
 }
 
+.comment .comment-list li p {
+  padding: 5px 30px;
+}
+
 .comment-metadata * {
   vertical-align: middle;
 }
