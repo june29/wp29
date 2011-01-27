@@ -18,8 +18,7 @@ bloginfo('name'); ?></title>
 
     <meta name="viewport" content="width=480" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/basic.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/advanced.css" type="text/css" media="screen and (min-device-width:481px)" />
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/iphone.css" type="text/css" media="only screen and (max-device-width:480px)" />
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/mobile.css" type="text/css" media="only screen and (max-device-width:480px)" />
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 

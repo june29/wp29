@@ -1,0 +1,57 @@
+#header h1 a {
+  font-size: 200%;
+}
+
+#header #description {
+  font-size: 140%;
+  top: 100px;
+}
+
+#header #search-form {
+  top: 45px;
+}
+
+#header #search-form #s {
+  font-size: 130%;
+  padding: 3px 12px 3px 12px;
+  width: 200px;
+}
+
+#header #search-form #search-submit {
+  font-size: 130%;
+  padding: 3px;
+}
+
+#header #search-form #search-icon {
+  display: none;
+}
+
+#social-links {
+  display: none;
+}
+
+h2.entry-title {
+  padding: 30px 50px 35px 0;
+}
+
+h2.entry-title a {
+  font-size: 180%;
+}
+
+ul.post-date {
+  width: 60px;
+  position: absolute;
+  left: 770px;
+}
+
+ul.post-date li a {
+  font-size: 150%;
+}
+
+.social-services, .hatena-star-comment-container, .hatena-star-star-container {
+  display: none;
+}
+
+.entry-content {
+  font-size: 130%;
+}
