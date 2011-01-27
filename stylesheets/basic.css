@@ -53,6 +53,7 @@ h1 a:hover {
 #header #search-form #s {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
+  border-radius: 50px;
   background: none repeat scroll 0 0 #fff;
   border: 1px solid #fff;
   font-size: 13px;
@@ -141,6 +142,7 @@ h1 a:hover {
   background: -moz-linear-gradient(top, #2c4762, #3a5772);
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
 .page-title {
@@ -218,6 +220,7 @@ h2 a:hover {
   opacity: 0.6;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
 
 .post-metadata a {
