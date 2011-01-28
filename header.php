@@ -31,7 +31,7 @@ bloginfo('name'); ?></title>
           'div.hentry': {
             uri: 'h2.entry-title a',
             title: 'h2.entry-title',
-            container: 'h2.entry-title'
+            container: 'p.social-services'
           }
         }
       };

@@ -16,7 +16,7 @@
         <p class="social-services">
           <a href="http://twitter.com/share?url=<?php the_permalink() ?>&via=june29" class="twitter-share-button">Tweet</a>
           <a href="http://b.hatena.ne.jp/entry/<?php the_permalink() ?>" class="hatena-bookmark-button" data-hatena-bookmark-title="<?php the_title(); ?>" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" height="24" width="50" style="border: none;" /></a>
-          <iframe src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&layout=standard&show_faces=false&width=500&action=like&colorscheme=light" allowtransparency="true" style="border: medium none; overflow: hidden; width: 500px; height: 24px; margin-left: 20px;" frameborder="0" scrolling="no"></iframe>
+          <iframe src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&layout=standard&show_faces=false&width=400&action=like&colorscheme=light" allowtransparency="true" style="border: medium none; overflow: hidden; width: 400px; height: 24px; margin-left: 20px;" frameborder="0" scrolling="no"></iframe>
         </p>
 
         <div class="entry-content">
