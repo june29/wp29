@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
 
@@ -21,6 +24,20 @@ bloginfo('name'); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/mobile.css" type="text/css" media="only screen and (max-device-width:480px)" />
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+    <?php if(is_single()): echo '
+    <meta property="og:title" content="'; the_title(); echo '" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="'; the_permalink(); echo '" />';
+    else: echo '
+    <meta property="og:title" content="準二級.jp" />
+    <meta property="og:type" content="blog" />
+    <meta property="og:description" content="One of implementations of june29" />
+    <meta property="og:url" content="http://june29.jp/" />';
+    endif; ?>
+
+    <meta property="og:site_name" content="準二級.jp" />
+    <meta property="og:image" content="http://june29.jp/wp-content/themes/wp29/images/face.jpg" />
+    <meta property="fb:admins" content="june29.jp" />
 
     <?php wp_head(); ?>
 

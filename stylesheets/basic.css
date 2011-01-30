@@ -237,6 +237,10 @@ h2 a:hover {
   vertical-align: middle;
 }
 
+.social-services .hatena-bookmark-button-frame {
+  margin-right: 20px;
+}
+
 .entry-content {
   font-size: 90%;
 }
