@@ -55,6 +55,9 @@ bloginfo('name'); ?></title>
     </script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+    <script type="text/javascript" src="http://june29.jp/wp-content/themes/wp29/javascripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="http://june29.jp/wp-content/themes/wp29/javascripts/playground.js"></script>
   </head>
 
   <body>
