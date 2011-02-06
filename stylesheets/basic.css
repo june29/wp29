@@ -255,7 +255,7 @@ h2 a:hover {
   padding: 5px 0;
 }
 
-.entry-content ul {
+.entry-content ul, .entry-content ol {
   padding: 10px;
   list-style-position: inside;
 }
