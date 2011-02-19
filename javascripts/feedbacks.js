@@ -6,7 +6,7 @@ function hundleHatenaBookmarkComments(data) {
   $(document).ready(function() {
     if (!data) return;
 
-    if (data.count > 0) {
+    if (data.bookmarks.length > 0) {
       var box = $("#hatena-bookmark-comments");
       $("<h3/>").text("Hatena Bookmark").appendTo(box);
 
@@ -41,7 +41,7 @@ function hundleTweets(data) {
 
     var response = data.response;
 
-    if (response.total > 0) {
+    if (response.list.length > 0) {
       var box = $("#tweets");
       $("<h3/>").text("Twitter").appendTo(box);
 
@@ -50,11 +50,20 @@ function hundleTweets(data) {
       for (var i = 0; i < response.list.length; i++) {
         var t = response.list[i];
 
-        $("<li/>").addClass("tweet")
-          .append($("<img/>").attr("src", t.author.photo_url).width(32).height(32))
-          .append($("<a/>").attr("href", t.permalink_url).text(t.author.nick))
-          .append($("<span/>").html(t.highlight))
-        .appendTo(ul);
+        if (t.permalink_url) {
+          $("<li/>").addClass("tweet")
+            .append($("<img/>").attr("src", t.author.photo_url).width(32).height(32))
+            .append($("<a/>").attr("href", t.permalink_url).text(t.author.nick))
+            .append($("<span/>").html(t.highlight))
+          .appendTo(ul);
+        }
+        else if (t.author && t.author.nick) {
+          $("<li/>").addClass("tweet")
+            .append($("<img/>").attr("src", t.author.photo_url).width(32).height(32))
+            .append($("<a/>").attr("href", "http://twitter.com/" + t.author.nick).text(t.author.nick))
+            .append($("<span/>").html(t.highlight))
+          .appendTo(ul);
+        }
       }
     }
   });
