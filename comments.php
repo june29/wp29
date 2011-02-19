@@ -17,17 +17,24 @@
   $oddcomment = 'class="odd" ';
 ?>
 
+
+
 <!-- You can start editing here. -->
 
-<div class="comment">
-  <h3 id="respond">Comments for this entry (<?php comments_number('No comments', '1 comment', '% comments' );?>)</h3>
+<div id="feedbacks">
+  <div id="hatena-bookmark-comments">
+    <script type="text/javascript" src="http://b.hatena.ne.jp/entry/jsonlite/?url=<?php the_permalink() ?>&callback=hundleHatenaBookmarkComments
+"></script>
+  </div>
+
+  <h3 id="respond">Comments</h3>
 
   <?php if ($comments) : ?>
   <ol class="comment-list">
 
   <?php foreach ($comments as $comment) : ?>
 
-    <li <?php echo $oddcomment; ?>id="comment-<?php comment_ID() ?>">
+    <li <?php echo $oddcomment; ?> id="comment-<?php comment_ID() ?>">
       <div class="comment-metadata">
         <?php echo get_avatar( $comment, 32 ); ?>
         <cite><?php comment_author_link() ?></cite>

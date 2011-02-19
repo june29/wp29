@@ -58,6 +58,7 @@ bloginfo('name'); ?></title>
 
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/playground.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/feedbacks.js"></script>
   </head>
 
   <body>

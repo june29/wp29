@@ -285,7 +285,7 @@ h3, h4 {
   background-color: #eee;
 }
 
-.comment {
+#feedbacks {
   margin: 20px;
   padding: 0 20px 10px;
   background-color: #fff;
@@ -295,16 +295,44 @@ h3, h4 {
   border-radius: 10px;
 }
 
-.comment .comment-list {
+#feedbacks #hatena-bookmark-comments li {
+  font-size: 80%;
+  padding: 3px 0;
   list-style-type: none;
 }
 
-.comment .comment-list li {
+#feedbacks #hatena-bookmark-comments li.without-comment {
+  display: inline;
+}
+
+#feedbacks #hatena-bookmark-comments li a {
+  color: #2C4762;
+  border-bottom: 1px solid #CCCCCC;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+#feedbacks #hatena-bookmark-comments li * {
+  vertical-align: middle;
+}
+
+#feedbacks .comment-list {
+  list-style-type: none;
+}
+
+#feedbacks .comment-list li {
+  font-size: 80%;
   padding: 10px 0;
 }
 
-.comment .comment-list li p {
+#feedbacks .comment-list li p {
   padding: 5px 30px;
+}
+
+#feedbacks .comment-list li p a {
+  color: #2C4762;
+  border-bottom: 1px solid #CCCCCC;
+  text-decoration: none;
 }
 
 .comment-metadata * {
@@ -313,6 +341,18 @@ h3, h4 {
 
 .comment-metadata cite {
   font-style: normal;
+}
+
+.comment-metadata a {
+  color: #2C4762;
+  border-bottom: 1px solid #CCCCCC;
+  text-decoration: none;
+}
+
+#comment-form p a {
+  color: #2C4762;
+  border-bottom: 1px solid #CCCCCC;
+  text-decoration: none;
 }
 
 #comment-form input {
