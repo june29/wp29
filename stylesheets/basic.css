@@ -320,6 +320,27 @@ h3, h4 {
   vertical-align: middle;
 }
 
+#feedbacks #tweets {
+  margin-bottom: 20px;
+}
+
+#feedbacks #tweets li {
+  font-size: 80%;
+  padding: 3px 0;
+  list-style-type: none;
+}
+
+#feedbacks #tweets li a {
+  color: #2C4762;
+  border-bottom: 1px solid #CCCCCC;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+#feedbacks #tweets li * {
+  vertical-align: middle;
+}
+
 #feedbacks .comment-list {
   list-style-type: none;
 }

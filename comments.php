@@ -23,8 +23,11 @@
 
 <div id="feedbacks">
   <div id="hatena-bookmark-comments">
-    <script type="text/javascript" src="http://b.hatena.ne.jp/entry/jsonlite/?url=<?php the_permalink() ?>&callback=hundleHatenaBookmarkComments
-"></script>
+    <script type="text/javascript" src="http://b.hatena.ne.jp/entry/jsonlite/?url=<?php the_permalink() ?>&callback=hundleHatenaBookmarkComments"></script>
+  </div>
+
+  <div id="tweets">
+    <script type="text/javascript" src="http://otter.topsy.com/trackbacks.js?url=<?php the_permalink() ?>&perpage=50&callback=hundleTweets"></script>
   </div>
 
   <h3 id="respond">Comments</h3>
