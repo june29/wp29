@@ -30,6 +30,13 @@
     <script type="text/javascript" src="http://otter.topsy.com/trackbacks.js?url=<?php the_permalink() ?>&perpage=50&callback=hundleTweets"></script>
   </div>
 
+  <div id="facebook-comments">
+    <h3>Facebook</h3>
+    <div id="fb-root"></div>
+    <script src="http://connect.facebook.net/en_US/all.js#appId=152041561520656&amp;xfbml=1"></script>
+    <fb:comments xid="june29.jp-<?php the_ID() ?>" numposts="10" width="782" publish_feed="true"></fb:comments>
+  </div>
+
   <h3 id="respond">Comments</h3>
 
   <?php if ($comments) : ?>

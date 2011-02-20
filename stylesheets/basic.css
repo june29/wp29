@@ -351,6 +351,10 @@ h3, h4 {
   vertical-align: middle;
 }
 
+#feedbacks #facebook-comments {
+  margin-bottom: 20px;
+}
+
 #feedbacks .comment-list {
   list-style-type: none;
 }
