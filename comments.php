@@ -34,7 +34,7 @@
     <h3>Facebook</h3>
     <div id="fb-root"></div>
     <script src="http://connect.facebook.net/en_US/all.js#appId=152041561520656&amp;xfbml=1"></script>
-    <fb:comments xid="june29.jp-<?php the_ID() ?>" numposts="10" width="782" publish_feed="true"></fb:comments>
+    <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=152041561520656&amp;xfbml=1"></script><fb:comments href="<?php the_permalink() ?>" num_posts="10" width="775"></fb:comments>
   </div>
 
   <h3 id="respond">Comments</h3>
