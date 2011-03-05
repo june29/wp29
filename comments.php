@@ -32,6 +32,8 @@
 
   <div id="facebook-comments">
     <h3>Facebook</h3>
+<iframe src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=standard&amp;show_faces=true&amp;width=700&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:700px; height:80px;" allowTransparency="true"></iframe>
+
     <div id="fb-root"></div>
     <script src="http://connect.facebook.net/en_US/all.js#appId=152041561520656&amp;xfbml=1"></script>
     <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=152041561520656&amp;xfbml=1"></script><fb:comments href="<?php the_permalink() ?>" num_posts="10" width="775"></fb:comments>
