@@ -255,6 +255,11 @@ h2 a:hover {
   padding: 5px 0;
 }
 
+.entry-content img {
+  margin: 5px;
+  box-shadow: 0 0 10px #999;
+}
+
 .entry-content table {
   padding: 20px;
 }
@@ -271,9 +276,10 @@ h2 a:hover {
 }
 
 .entry-content blockquote {
-  margin: 10px 0;
+  margin: 10px 5px;
   padding: 20px;
   background-color: #eee;
+  box-shadow: 0 0 10px #999;
 }
 
 h3 {
