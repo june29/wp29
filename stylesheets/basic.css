@@ -286,6 +286,10 @@ h2 a:hover {
   box-shadow: 0 0 10px #999;
 }
 
+.entry-content blockquote p.source {
+  text-align: right;
+}
+
 h3 {
   font-size: 140%;
 }
