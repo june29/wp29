@@ -70,12 +70,12 @@ bloginfo('name'); ?></title>
         <div id="description">One of implementations of june29, <a href="/about/" title="About">and more detail...</a></div>
         <?php include (TEMPLATEPATH . '/searchform.php'); ?>
         <ul id="social-links">
-          <li id="social-link-twitter"   class="social-link"><a href="http://twitter.com/june29"           title="">Twitter</a></li>
-          <li id="social-link-tumblr"    class="social-link"><a href="http://june29.tumblr.com/"           title="">Tumblr</a></li>
-          <li id="social-link-facebook"  class="social-link"><a href="http://www.facebook.com/june29.jp"   title="">Facebook</a></li>
-          <li id="social-link-flickr"    class="social-link"><a href="http://www.flickr.com/photos/june29" title="">Flickr</a></li>
-          <li id="social-link-delicious" class="social-link"><a href="http://delicious.com/june29"         title="">Delicious</a></li>
-          <li id="social-link-github"    class="social-link"><a href="http://github.com/june29"            title="">GitHub</a></li>
-          <li id="social-link-lastfm"    class="social-link"><a href="http://www.last.fm/user/june29"      title="">Last.fm</a></li>
+          <li id="social-link-twitter"  class="social-link"><a href="http://twitter.com/june29"           title="">Twitter</a></li>
+          <li id="social-link-tumblr"   class="social-link"><a href="http://june29.tumblr.com/"           title="">Tumblr</a></li>
+          <li id="social-link-facebook" class="social-link"><a href="http://www.facebook.com/june29.jp"   title="">Facebook</a></li>
+          <li id="social-link-flickr"   class="social-link"><a href="http://www.flickr.com/photos/june29" title="">Flickr</a></li>
+          <li id="social-link-hatenab"  class="social-link"><a href="http://b.hatena.ne.jp/june29"        title="">Bookmark</a></li>
+          <li id="social-link-github"   class="social-link"><a href="http://github.com/june29"            title="">GitHub</a></li>
+          <li id="social-link-lastfm"   class="social-link"><a href="http://www.last.fm/user/june29"      title="">Last.fm</a></li>
         </ul>
       </div>
