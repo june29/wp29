@@ -55,7 +55,6 @@ bloginfo('name'); ?></title>
     </script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-    <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
 
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/playground.js"></script>
