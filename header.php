@@ -62,6 +62,9 @@ bloginfo('name'); ?></title>
   </head>
 
   <body>
+    <div id="start3d">
+      3D mode!
+    </div>
     <div id="wrapper">
       <div id="header">
         <img id="face" src="<?php bloginfo('template_directory'); ?>/images/face.jpg" width="128" height="128" alt="Face" />

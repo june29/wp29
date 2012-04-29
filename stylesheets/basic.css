@@ -460,13 +460,13 @@ h3, h4 {
   font-size: 80%;
 }
 
-#notification {
-  font-size: 200%;
-  width: 100%;
-  text-align: center;
+#start3d {
   position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  opacity: 0.8;
+  right: 0;
+  top: 154px;
+  color: #fff;
+  background-color: #b7b7b7;
+  padding: 3px 10px;
+  cursor: pointer;
+  z-index: 300;
 }
