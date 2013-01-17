@@ -1,4 +1,22 @@
 $(document).ready(function() {
+  $(window).scroll(function() {
+    var scrollTop = $(document).scrollTop();
+
+    $(".post").each(function() {
+      var positionTop = $(this).position().top;
+      var postHeight  = $(this).height();
+
+      var socialServices = $(this).find(".social-services");
+
+      if (positionTop < scrollTop && scrollTop < (positionTop + postHeight)) {
+        socialServices.show();
+      }
+      else {
+        socialServices.hide();
+      }
+    });
+  });
+
   if (!window.ThreeDit) {
     ThreeDit = function(a, b) {
       function G(a) {

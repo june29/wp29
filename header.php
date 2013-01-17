@@ -48,7 +48,7 @@ bloginfo('name'); ?></title>
           'div.hentry': {
             uri: 'h2.entry-title a',
             title: 'h2.entry-title',
-            container: 'p.social-services'
+            container: '.social-services .social-services-container'
           }
         }
       };

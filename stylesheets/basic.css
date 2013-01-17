@@ -228,9 +228,24 @@ h2 a:hover {
 }
 
 .social-services {
-  margin-bottom: 15px;
-  padding: 5px 0;
-  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+}
+
+.social-services .social-services-inner {
+  width: 830px;
+  margin: 0 auto;
+}
+
+.social-services .social-services-inner h3 {
+  font-size: 100%;
+  padding: 10px 0 0;
 }
 
 .social-services * {
@@ -415,7 +430,7 @@ h3, h4 {
 #footer {
   color: #999;
   font-size: 90%;
-  padding: 20px 0 30px;
+  padding: 20px 0 100px;
   background-color: #2c4762;
   text-align: center;
   -webkit-border-top-left-radius: 20px;
